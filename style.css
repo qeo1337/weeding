@@ -140,8 +140,6 @@ opacity:.6;
 
 height:100vh;
 
-background:url("ChatGPT Image 1 авг. 2026 г., 17_28_02.png") center/cover;
-
 display:flex;
 
 justify-content:center;
@@ -164,6 +162,32 @@ position:absolute;
 inset:0;
 
 background:rgba(0,0,0,.35);
+
+}
+
+
+.hero{
+
+background:#111;
+
+overflow:hidden;
+
+}
+
+
+.hero-photo{
+
+position:absolute;
+
+max-width:100%;
+
+max-height:100%;
+
+width:auto;
+
+height:100%;
+
+object-fit:contain;
 
 }
 
@@ -314,7 +338,30 @@ opacity:.8;
 
 position:relative;
 
+z-index:2;
+
+height:100%;
+
+width:100%;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
 text-align:center;
+
+padding:40px 20px;
+
+box-sizing:border-box;
+
+}
+
+
+.hero-intro{
+
+margin-top:0;
 
 }
 
@@ -623,7 +670,7 @@ font-size:40px;
 
 h1{
 
-font-size:60px;
+font-size:42px;
 
 }
 
@@ -631,6 +678,54 @@ font-size:60px;
 h2{
 
 font-size:42px;
+
+}
+
+
+.hero-intro{
+
+font-size:20px;
+
+}
+
+
+.hero-title{
+
+font-size:34px;
+
+letter-spacing:3px;
+
+}
+
+
+.hero-name{
+
+font-size:34px;
+
+}
+
+
+.hero-hearts{
+
+gap:12px;
+
+margin-bottom:22px;
+
+}
+
+
+.guests h1{
+
+font-size:38px;
+
+}
+
+
+.guests .subtitle{
+
+font-size:15px;
+
+line-height:1.6;
 
 }
 
