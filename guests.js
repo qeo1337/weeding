@@ -6,9 +6,31 @@
 
 const GUESTS = {
 
-    "artur-elina": "Артур и Элина",
+    "artur-elina":      "Артур и Элина",
 
-    "timur-liza":  "Тимур и Лиза",
+    "timur-liza":       "Тимур и Лиза",
+
+    "dinar-aigul":      "Динар и Айгуль",
+
+    "nastyas-lera":     "Настя и Лера",
+
+    "dayana-alyona":    "Даяна и Алёна",
+
+    "albert":           "Альберт",
+
+    "mama-papa":        "Мама и Папа",
+
+    "mama-bogdan":      "Мама, Богдан и Ильдар",
+
+    "papa-family":      "Папа, Нанейка, Картатайка",
+
+    "denis-sveta":      "Денис, Света, Ульяна",
+
+    "grandparents":     "Бабушка и Дедушка",
+
+    "azat-elina-erik":  "Азат, Элина и Эрик",
+
+    "sasha-ira":        "Саша и Ира",
 
 };
 
