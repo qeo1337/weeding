@@ -76,9 +76,22 @@ btn.addEventListener("click",()=>{
 
 function openRsvpForm(answer){
 
-    // Формы пока нет — закладываю функционал.
-    // answer: "yes" | "no"
-    console.log("Открыть форму RSVP, ответ:",answer);
+    // answer: "yes" | "no" → значение скрытого поля Яндекс-формы
+    const value=(answer==="yes")?"Да":"Нет";
+
+    const formId="6a6de8c884227c8c982e2e91";
+    const fieldId="answer_boolean_9008984842657980";
+
+    const src=`https://forms.yandex.ru/u/${formId}?iframe=1&${fieldId}=${encodeURIComponent(value)}`;
+
+    const container=document.querySelector("#rsvp-form");
+
+    container.innerHTML=
+
+        `<iframe src="${src}" frameborder="0" name="ya-form-${formId}" width="650" style="width:100%;max-width:650px;margin:30px auto 0;display:block;"></iframe>`;
+
+    // Прокручиваем к форме, чтобы гость сразу её увидел.
+    container.scrollIntoView({behavior:"smooth",block:"center"});
 
 }
 
