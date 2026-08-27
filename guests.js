@@ -34,6 +34,8 @@ const GUESTS = {
 
     "anya":        "Аня",
 
+    "Nikita":        "Никита",
+
 };
 
 
